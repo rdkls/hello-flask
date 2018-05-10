@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 from flask import Flask
 import os
 
@@ -13,4 +12,4 @@ def hello():
     return "Hello from instance %s!" % i
 
 if __name__ == "__main__":
-    app.run(port=8888)
+    app.run(port=80)
