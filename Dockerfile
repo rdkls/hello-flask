@@ -3,6 +3,7 @@ EXPOSE 80
 
 RUN apk add --update \
         python \
+        curl \
         py-pip
 RUN pip install virtualenv
 
